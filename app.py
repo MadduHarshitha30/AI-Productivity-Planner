@@ -49,7 +49,7 @@ Make it visually clean and easy to read.
     st.subheader("Your AI Generated Schedule")
     st.success("Schedule Generated Successfully!")
     st.markdown(response.text)
-st.subheader("Chat With Your AI Assistant 😄")
+st.subheader("Chat With Your AI Assistant ")
 
 chat_input = st.text_input("Ask something about your schedule/productivity")
 if st.button("Send"):
